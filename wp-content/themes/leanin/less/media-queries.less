@@ -1,0 +1,164 @@
+/**
+ * 8.0 Media Queries
+ * 媒体查询
+ * ----------------------------------------------------------------------------
+ */
+@media screen and (min-width: 640px) {
+.site-home{
+  width: 290px;
+  height: 40px;
+  background: url('images/site-title-pad.png') no-repeat;
+  -webkit-background-size: 290px 40px;
+  background-size: 290px 40px;
+}
+.main-navigation .nav-menu{display: block;}
+.main-navigation .nav-menu > li{
+    float: left;
+    padding: 0;
+    font-size: 15px;
+    margin-right: 14px;
+}
+.main-navigation .nav-menu > li:hover{background: #0D559D;}
+.main-navigation .nav-menu > li:after{content: '';position: static;}
+.main-navigation .nav-menu > li > a{display: block; padding: 10px 4px;}
+
+
+.main-navigation .sub-menu{position: absolute;left: 0;top:100%;width: 165px;margin-top: 0; /*background: #004a8f;*/z-index: 6;background: #0D559D;}
+.main-navigation .sub-menu li{padding-left: 10px;}
+.main-navigation .sub-menu li a:hover{}
+/*导航菜单和搜索按钮*/
+.site-header .menu-toggle,.site-header .screen-reader-text{display: none;}
+.site-search{display: block;position: absolute; top: 0; right: 0px;}
+.site-search #s{margin: 0;margin-left: -30px; padding-right: 30px;}
+.site-search #searchsubmit{ }
+
+.header-notice{display: block;}
+// .pc .site-search{display: block; margin-left: 50px;}
+.pic_cats li{width: 25%}
+}
+
+@media screen and (min-width: 768px){
+.lists{margin: 0;}
+
+.first-column {
+    width: 320px;
+    float: left;
+    margin-right: 20px;
+}
+
+.home-slide{float: left;margin-right: 20px;margin-top: 0;margin-bottom: 0;}
+.home-slide .entry-title{}
+
+
+.index-tabs{overflow: hidden;}
+
+.majar-grades{width: 20px;height:120px;padding-top: 10px; float: left;}
+.majar-grades-li li{width: 20%;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 839px){
+.home-slide{float: left;width: 320px;}
+#index-news .lists-small li:nth-child(n+10){display: none;}
+/*#index-notice{width: 420px;}*/
+#index-notice{margin-bottom: 20px;margin-top: 0;}
+// #index-notice li{width: 49%;float: left;margin-right: 1%;}
+#index_honor{float: right;width: 362px;float: right;margin-left: 20px;}
+
+}
+@media screen and (min-width: 840px) {
+
+  .site-header {
+    padding-top: 10px;
+  }
+  
+  .main-navigation {
+    margin-top: 10px;
+  }
+    
+  .site-home {
+    width: 581px;
+    height: 80px;
+    background: url('images/site-title.png') no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+  }
+  .site-search{
+    top: 40px;
+   }
+
+   .index-big {
+      display: block;
+   }
+}
+/*@media screen and (min-width: 840px) and (max-width: 1024px){*/
+@media screen and (min-width: 840px){
+
+#index-news .lists-small li:nth-child(n+12){display: none;}
+// #index-notice{float: left;margin: 0 20px 0 0;}
+// #index-notice{width: 33%;}
+#index-notice .lists-small li:nth-child(n+10){display: none;}
+/*.index-tabs{float: left;width: 33%;margin-right: 20px;}*/
+#index_honor{width: 362px;float: left;margin-right: 20px;}
+.index-tabs .lists-small .entry-date{display: none;}
+}
+/*pc上的菜单*/
+@media screen and (min-width: 960px){
+.pc{font-size: 14px;}
+// .pc .nav-menu > li{width: auto;margin: 0 6px;}
+.pc .main-navigation .nav-menu > li > a{display: block; padding: 14px 4px;}
+.pc .header-notice{overflow: hidden;}
+.site-logo-large{display: block;}
+
+.footer-links{display: block;}
+
+    .third-column {
+        display: block;
+        float: right;
+        width: 320px;
+        margin-left: 20px;
+    }
+
+    #index-notice {
+        width: auto;
+        float: none;
+    }
+}
+/*大平板*/
+@media screen and (min-width: 1025px){
+  // .site{margin: 0 auto;max-width: 1200px;}
+  #index-news .lists-small li:nth-child(n){display: block;}
+  /*#index-notice{width: 55%;}*/
+  
+  .section-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .site-header .section-wrapper {
+    position: relative;
+  }
+  
+  .main-navigation  {
+    background-color: none;
+  }
+  
+  .main-navigation {
+    background: #004a8f;
+    .nav-menu {
+      background: none; 
+    }
+  }
+
+  #index-professional {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .pc .nav-menu > li {
+    margin-left: 14px;  // 15个是8和10px
+    margin-right: 17px;
+    font-size: 14px;
+  }
+
+}

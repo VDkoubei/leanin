@@ -1,0 +1,608 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2013-02-20 23:15+0800\n"
+"PO-Revision-Date: 2013-02-24 16:18+0800\n"
+"Last-Translator: 明日工作室 <92qing@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\dw\\wp-content\\themes\\freshsky\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "有点尴尬诶。"
+
+#: 404.php:21
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "我们可能无法找到您需要的内容。或许搜索功能可以帮到您。"
+
+#: archive.php:31
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "日度归档：%s"
+
+#: archive.php:33
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "月度归档：%s"
+
+#: archive.php:35
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "年度归档: %s"
+
+#: archive.php:37
+msgid "Archives"
+msgstr "归档"
+
+#: author.php:34
+#, php-format
+msgid "Author Archives: %s"
+msgstr "作者归档：%s"
+
+#: author.php:56
+#, php-format
+msgid "About %s"
+msgstr "关于 %s"
+
+#: category.php:35
+#, php-format
+msgid "Category Archives: %s"
+msgstr "分类目录归档：%s"
+
+#: comments-ajax.php:26 comments-ajax.php:32 comments-ajax.php:35
+msgid "Invalid comment status."
+msgstr "不可用的评论章台"
+
+#: comments-ajax.php:29
+msgid "Sorry, comments are closed for this item."
+msgstr "抱歉，评论被莫名其妙地关闭了！"
+
+#: comments-ajax.php:38
+msgid "Password Protected"
+msgstr "密码保护"
+
+#: comments-ajax.php:65
+msgid "Sorry, you must be logged in to post a comment."
+msgstr "抱歉，发表评论您须登录。"
+
+#: comments-ajax.php:72 comments-ajax.php:74 comments-ajax.php:78
+msgid "<strong>ERROR</strong>: please enter a valid email address."
+msgstr "<strong>错误</strong>：请输入有效的电子邮件地址。"
+
+#: comments-ajax.php:92
+msgid ""
+"Duplicate comment detected; it looks as though you&#8217;ve already said "
+"that!"
+msgstr "检测到重复评论，您似乎已经提交过这条评论了！"
+
+#: comments-ajax.php:101
+msgid "You are posting comments too quickly.  Slow down."
+msgstr "您提交评论的速度太快了，请稍后再发表评论。"
+
+#: comments-ajax.php:144
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: comments-ajax.php:144 content-aside.php:26 content-image.php:26
+#: content-link.php:24 content-mpic.php:50 content-mvideo.php:69
+#: content-page.php:21 content-quote.php:23 content-status.php:30
+#: content.php:122 image.php:37 framework/helper_functions/base-funs.php:708
+msgid "Edit"
+msgstr "编辑"
+
+#: comments.php:7
+msgid "Enter your password to view comments."
+msgstr "要查看留言请输入您的密码。"
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr "评论被关闭了。"
+
+#: comments.php:68
+#, php-format
+msgid "Welcome <strong>%s</strong>"
+msgstr "欢迎 <strong>%s</strong> 回来"
+
+#: content-aside.php:13 content-aside.php:20 content-image.php:17
+#: content-link.php:18 content-mpic.php:23 content-mvideo.php:42
+#: content-quote.php:17 content-status.php:15 content.php:91
+#: framework/theme_widgets/category-cats.php:100
+#: framework/theme_widgets/category-cats.php:143
+#: framework/theme_widgets/sidebar_news.php:47 inc/column.php:17
+#: inc/slideshow.php:61
+#, php-format
+msgid "Permalink to %s"
+msgstr "蹦极到 %s "
+
+#: content-aside.php:15 content-image.php:13 content-link.php:14
+#: content-quote.php:13 content-status.php:21
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "继续瞅瞅 <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-mpic.php:47 content-mvideo.php:66 content-quote.php:20
+#: content-status.php:27 content.php:95
+msgid "Leave a reply"
+msgstr "踩一踩"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-mpic.php:47 content-mvideo.php:66 content-quote.php:20
+#: content-status.php:27 content.php:95
+msgid "1 Reply"
+msgstr "一个脚印"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-mpic.php:47 content-mvideo.php:66 content-quote.php:20
+#: content-status.php:27 content.php:95
+msgid "% Replies"
+msgstr "% 个脚印"
+
+#: content-link.php:12
+msgid "Link"
+msgstr "链接"
+
+#: content-mpic.php:35 content-mvideo.php:54 content.php:113
+#: framework/helper_functions/base-funs.php:326
+msgid "This post has a password, please click and check it!"
+msgstr "文章有密码，请点击后在文章页输入密码"
+
+#: content-none.php:13 index.php:53 search.php:34
+msgid "Nothing Found"
+msgstr "啥都没瞅见！"
+
+#: content-none.php:17 index.php:57
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr "对不起，没有发现路边的小吃。可能求助搜索可以寻找到相关的文章。"
+
+#: content-page.php:18 content.php:64 content.php:117 image.php:94
+msgid "Pages:"
+msgstr "页面:"
+
+#: content.php:25
+msgid "The views of This article"
+msgstr "文章围观次数"
+
+#: content.php:69 framework/theme_widgets/users-cats-tags.php:66
+#: framework/theme_widgets/users-cats-tags.php:112
+msgid "Categories"
+msgstr "分类"
+
+#: content.php:70 framework/theme_widgets/users-cats-tags.php:76
+#: framework/theme_widgets/users-cats-tags.php:122
+msgid "Tags"
+msgstr "标签"
+
+#: content.php:71
+msgid "Popular Heat"
+msgstr "流行热度"
+
+#: content.php:72
+msgid "Writing Date"
+msgstr "写作时间"
+
+#: content.php:73
+msgid "Loading Time"
+msgstr "加载时间"
+
+#: content.php:74
+msgid "Post Link"
+msgstr "文章链接"
+
+#: content.php:82
+msgid "Featured post"
+msgstr "特色文章"
+
+#: footer.php:26
+msgid "Blogroll"
+msgstr "链接表"
+
+#: footer.php:45
+#, php-format
+msgid "The copyright is owned by <a href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+msgstr "版权归 <a href=\"%1$s\" title=\"%2$s\">%3$s</a> 所有"
+
+#: footer.php:53
+#, php-format
+msgid "Theme designed by <a href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+msgstr "主题由  <a href=\"%1$s\" title=\"%2$s\">%3$s</a> 设计"
+
+#: footer.php:61
+#, php-format
+msgid "Build based on <a href=\"%1$s\" title=\"%2$s\">%3$s</a>"
+msgstr "基于 <a href=\"%1$s\" title=\"%2$s\">%3$s</a> 搭建"
+
+#: footer.php:65
+msgid "Semantic Personal Publishing Platform"
+msgstr "优雅的个人发布平台"
+
+#: footer.php:71
+msgid "Website Analytics"
+msgstr "统计代码"
+
+#: functions.php:53
+msgid "Primary Menu"
+msgstr "基本菜单"
+
+#: functions.php:54
+msgid "Footer Menu"
+msgstr "底部菜单"
+
+#: functions.php:188
+#, php-format
+msgid "Page %s"
+msgstr "页 %s"
+
+#: functions.php:219
+msgid "Main Sidebar"
+msgstr "主侧边栏"
+
+#: functions.php:221
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+"显示在所有文章和页面。一个例外是可选的“首页”模板，该模板使用独立的一套小工具"
+
+#: functions.php:229
+msgid "Article Slideshow Sidebar"
+msgstr "文章幻灯片"
+
+#: functions.php:231
+msgid "Appears when displaying article slideshow"
+msgstr "出现在幻灯片的旁边"
+
+#: functions.php:239
+msgid "Category Sidebar"
+msgstr "分类侧边栏"
+
+#: functions.php:241 functions.php:251
+msgid "Appears in category"
+msgstr "在分类目录上出现"
+
+#: functions.php:249
+msgid "Tag Sidebar"
+msgstr "标签侧边栏"
+
+#: functions.php:259
+msgid "Single Sidebar"
+msgstr "文章页标签"
+
+#: functions.php:261
+msgid "Appears in single"
+msgstr "在文章页出现"
+
+#: functions.php:269
+msgid "Page Sidebar"
+msgstr "页面侧边栏"
+
+#: functions.php:271
+msgid "Appears in page"
+msgstr "在页面中"
+
+#: functions.php:286
+#, php-format
+msgid "Page: %1$s"
+msgstr "分类：%1$s"
+
+#: functions.php:287 functions.php:306
+#, php-format
+msgid "Set one sidebar for %1$s"
+msgstr "为 %1$s 创建侧边栏"
+
+#: functions.php:305
+#, php-format
+msgid "Category: %1$s"
+msgstr "分类目录: %1$s"
+
+#: functions.php:341 single.php:20
+#: framework/helper_functions/base-funs.php:402
+msgid "Post navigation"
+msgstr "文章导航"
+
+#: functions.php:342
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 早期文章"
+
+#: functions.php:343
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "较新文章 <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:360 functions.php:363
+msgid ", "
+msgstr ", "
+
+#: functions.php:374
+#, php-format
+msgid "View all posts by %s"
+msgstr "查看 %s 的所有文章"
+
+#: functions.php:381
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author"
+"\"> by %4$s</span>."
+msgstr ""
+"发布日期:  %3$s | 分类: %1$s | 标签: %2$s | <span class=\"by-author\">作者: "
+"%4$s。</span>"
+
+#: functions.php:383
+#, php-format
+msgid ""
+"This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+"发布日期: %3$s | 分类: %1$s | <span class=\"by-author\">作者:  %4$s。</span>"
+
+#: functions.php:385
+#, php-format
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "发布日期于: %3$s | <span class=\"by-author\">作者: %4$s。</span>"
+
+#: header.php:48 header.php:53
+msgid "logo"
+msgstr "网站图标"
+
+#: header.php:48 header.php:53
+msgid "Happy every day"
+msgstr "快乐每一天"
+
+#: header.php:56
+msgid "Menu"
+msgstr "菜单"
+
+#: header.php:57
+msgid "Skip to content"
+msgstr "调至内容"
+
+#: header.php:67
+msgid "Home Style"
+msgstr "首页风格"
+
+#: header.php:68
+msgid "Blog Style"
+msgstr "博客风格"
+
+#: header.php:69
+msgid "Mobile Style"
+msgstr "移动风格"
+
+#: header.php:73
+msgid "Follow us"
+msgstr "关注小站"
+
+#: header.php:74
+msgid "Contact me in QQ"
+msgstr "有急事就Q我！"
+
+#: header.php:75
+msgid "Tencent Microblog"
+msgstr "腾讯微博"
+
+#: header.php:76
+msgid "Sina Microblog"
+msgstr "新浪微博"
+
+#: header.php:77
+msgid "Syndicate this site using RSS 2.0"
+msgstr "使用 RSS 2.0 订阅本站点内容"
+
+#: header.php:77
+msgid "RSS Feed"
+msgstr "RSS订阅"
+
+#: header.php:78
+msgid "Mail Feed"
+msgstr "邮件订阅"
+
+#: header.php:82 header.php:84
+msgid "Search"
+msgstr "搜索"
+
+#: image.php:26
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">发表于 </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span>，尺寸为 <a href=\"%3$s\" title=\"到全尺寸图像的链接\">%4$s &times; "
+"%5$s</a>，属于 <a href=\"%6$s\" title=\"回到 %7$s\" rel=\"gallery\">%8$s</"
+"a>。"
+
+#: image.php:41
+msgid "&larr; Previous"
+msgstr "&larr; 上一个"
+
+#: image.php:42
+msgid "Next &rarr;"
+msgstr "下一个 &rarr;"
+
+#: index.php:41
+msgid "No posts to display"
+msgstr "没有文章展示"
+
+#: index.php:45
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "准备好发布第一篇文章了？<a href=\"%s\">从这里开始</a>。"
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "搜索结果图: %s"
+
+#: search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr "对不起，没有内容匹配。请在此输入不同的关键词！"
+
+#: tag.php:22
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "标签归档: %s"
+
+#: framework/helper_functions/base-funs.php:404
+msgid " Pages: "
+msgstr "页面:"
+
+#: framework/helper_functions/base-funs.php:405
+msgid "The First"
+msgstr "最先"
+
+#: framework/helper_functions/base-funs.php:406
+msgid "Previous Page"
+msgstr "前一页"
+
+#: framework/helper_functions/base-funs.php:412
+msgid "Next"
+msgstr "下一页"
+
+#: framework/helper_functions/base-funs.php:413
+msgid "The Last"
+msgstr "最后"
+
+#: framework/helper_functions/base-funs.php:439
+msgid "Tencent MiscoBlogging"
+msgstr "腾讯微博"
+
+#: framework/helper_functions/base-funs.php:440
+#: framework/helper_functions/base-funs.php:477
+msgid "Sina MicroBlogging"
+msgstr "新浪微博"
+
+#: framework/helper_functions/base-funs.php:455
+msgid "This post was written by "
+msgstr "文章"
+
+#: framework/helper_functions/base-funs.php:458
+#, php-format
+msgid " <a rel=\"author\" href=\"%1$s\">%2$s</a> "
+msgstr " <a rel=\"author\" href=\"%1$s\">%2$s</a> "
+
+#: framework/helper_functions/base-funs.php:461
+#, php-format
+msgid "who has written %1$s  posts on <a href=\"%2$s\">%3$s</a>"
+msgstr "已经在  <a href=\"%2$s\">%3$s</a 写了 %1$s  篇文章>"
+
+#: framework/helper_functions/base-funs.php:467
+msgid "Send an Email to the Author of this Post"
+msgstr "发送邮件给本文作者"
+
+#: framework/helper_functions/base-funs.php:474
+msgid "My Tencent MicroBlogging"
+msgstr "腾讯微博"
+
+#: framework/helper_functions/base-funs.php:474
+msgid "Tencent MicroBlogging"
+msgstr "腾讯微博"
+
+#: framework/helper_functions/base-funs.php:477
+msgid "My Sina MicroBlogging"
+msgstr "新浪微博"
+
+#: framework/helper_functions/base-funs.php:694
+msgid "Sofa"
+msgstr "沙发"
+
+#: framework/helper_functions/base-funs.php:695
+msgid "Stool"
+msgstr "板凳"
+
+#: framework/helper_functions/base-funs.php:696
+msgid "Floor"
+msgstr "地板"
+
+#: framework/helper_functions/base-funs.php:697
+msgid " Floor"
+msgstr "楼"
+
+#: framework/helper_functions/base-funs.php:706
+msgid "Post author"
+msgstr "文章作者"
+
+#: framework/helper_functions/base-funs.php:712
+msgid "Your comment is awaiting moderation."
+msgstr "你的脚印正在等待-洗洗"
+
+#: framework/helper_functions/base-funs.php:722
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%2$s 年%1$s"
+
+#: framework/helper_functions/base-funs.php:725
+msgid "Reply"
+msgstr "吐槽"
+
+#: framework/helper_functions/base-funs.php:857
+msgid "% Comments"
+msgstr "% 个脚印"
+
+#: framework/helper_functions/base-funs.php:1044
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%2$d 年%1$s"
+
+#: framework/theme_widgets/comments-new.php:91
+#: framework/theme_widgets/comments-new.php:102
+msgid "Link to "
+msgstr "跳转到"
+
+#: framework/theme_widgets/comments-wallreaders.php:58
+#: framework/theme_widgets/comments-wallreaders.php:71
+#, php-format
+msgid "Leave %s footprints"
+msgstr "留下 %s 个大脚丫!"
+
+#: framework/theme_widgets/special_login.php:36
+msgid "Username:"
+msgstr "用户名:"
+
+#: framework/theme_widgets/special_login.php:39
+msgid "Password:"
+msgstr "密 码:"
+
+#: framework/theme_widgets/special_login.php:42
+msgid "Remember Me"
+msgstr "记住我"
+
+#: framework/theme_widgets/special_login.php:42
+msgid "Log in"
+msgstr "登录"
+
+#: framework/theme_widgets/special_login.php:45
+msgid "Password Lost and Found"
+msgstr "找回密码"
+
+#: framework/theme_widgets/special_login.php:46
+msgid "Register"
+msgstr "注册"
+
+#: framework/theme_widgets/users-cats-tags.php:55
+#: framework/theme_widgets/users-cats-tags.php:101
+msgid "Pages"
+msgstr "页面"
+
+#: inc/related-posts.php:2
+msgid "Related Posts"
+msgstr "相关文章"
+
+#: page-templates/guestbook.php:73
+msgid "Leave Footprints"
+msgstr "留下脚印"

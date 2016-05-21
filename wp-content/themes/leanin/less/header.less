@@ -1,0 +1,69 @@
+/**
+ * 4.0 Header
+ * 网站顶部，包括网站主题、网站描述、导航菜单等
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 4.1 Site Header
+ * 网站顶部内容
+ * ----------------------------------------------------------------------------
+ */
+
+.site-header{position: relative;}
+.site-home{display: block; width: 120px;height: 30px;background: url('images/site-title-mobile.png') no-repeat;text-indent: -9999px;overflow: hidden;margin-left: 10px;}
+.site-logo-large{display: none;}
+.site-logo-large object{width: 100%;}
+.header-notice{height: 32px;line-height: 32px;display: inline-block;margin: 10px 10px 0;}
+.header-notice a{margin-right: 10px;}
+
+/**
+ * 4.2 - Navigation
+ * 导航菜单
+ * ----------------------------------------------------------------------------
+ */
+.navbar{}
+.site-header .menu-toggle{position: absolute;top: 3px; right: 43px;color: #004a8f;font-size: 18px;}
+.site-header .menu-toggle .ico{margin-left: 2px; display: inline-block;width: 18px;height: 15px;margin-top: -2px; vertical-align: middle; background: url('images/css-sprite.png') no-repeat -61px -2px; }
+.assistive-text{display: none;}
+
+.main-navigation{margin: 10px 0;}
+.main-navigation .nav-menu{display: none;background: #004a8f;}
+.main-navigation li{padding: 10px;position: relative;color: #fff;}
+.main-navigation .nav-menu > li:after{content:'>';position: absolute;top: 5px;right: 5px;}
+.main-navigation .nav-menu > li.active:after{  
+  -webkit-transform: rotate(90deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+      -ms-transform: rotate(90deg);  /* IE 9 */
+          transform: rotate(90deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+
+/*.main-navigation li:last-child{border: none;}*/
+.main-navigation li a{color: #fff;}
+.main-navigation li a:hover{background: #0D559D;}
+.main-navigation li.current-menu-item{font-weight: bold;}
+.main-navigation .sub-menu{margin-top: 10px;display: none;}
+.main-navigation .sub-menu li{padding-left: 32px;}
+.main-navigation .sub-menu li a:hover{background: transparent;}
+
+/**
+ * 4.3 - Header BreadCrumb
+ * 顶部面包屑导航
+ * ----------------------------------------------------------------------------
+ */
+.breadcrumb{}
+.crumb{margin: 10px;line-height: 32px;}
+.header-notice{display: none;}
+.header-notice h3{padding: 0 10px;float: left; margin-right: 10px; border-left: 5px solid #004a8f; background: #eaeaea; }
+.header-notice .marquee-sc{overflow: hidden;}
+/**
+ * 4.3.1 - Site Search
+ * 站点搜索
+ * ----------------------------------------------------------------------------
+ */
+.site-search{margin: 10px 10px 0;position: relative;display: none;}
+.site-header .screen-reader-text{position: absolute;top: 5px; right: 10px;width: 20px;height: 20px;text-indent: -9999px;overflow: hidden;background: url('images/css-sprite.png') no-repeat -32px 0;_background-image: url("images/css-sprite.gif")}
+.site-header .site-search .screen-reader-text{display: none;}
+.site-search #s{width: 100%; height: 30px; border: 1px solid #999;}
+.site-search #searchsubmit{position: absolute;right: 6px;top: 4px;   width: 24px;height: 24px;text-indent: -9999px;overflow: hidden;border: none;background: url('images/css-sprite.png') no-repeat 0 2px;_background-image: url("images/css-sprite.gif");}
+

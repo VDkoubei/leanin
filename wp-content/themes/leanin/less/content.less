@@ -1,0 +1,99 @@
+/**
+ * 5 Content
+ * 主内容，用于显示网站主内容
+ * 包括主内容和侧边栏
+ * ----------------------------------------------------------------------------
+ */
+
+
+
+/**
+ * 5.1 Entry Header
+ * 文章顶部
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-header{margin-bottom: 10px;}
+.entry-title{font-size: 16px; font-weight: bold;  line-height: 30px;text-align: center;}
+
+
+/**
+ * 5.2 Entry Meta
+ * 文章概要
+ * ----------------------------------------------------------------------------
+ */
+p.entry-summary {margin: 10px;color: #757575;text-align: center;}
+.lists-major .entry-summary{text-indent: 2em;text-align: left;}
+
+/**
+ * 5.2 Entry Content
+ * 文章内容
+ * ----------------------------------------------------------------------------
+ */
+.post .entry-content {border: 1px solid #ccc; border-radius: 5px;}
+.entry-content{padding: 10px;}
+.entry-content,.entry-summary,.mu_register {line-height: 1.5;}
+
+.entry-content h1,.entry-content h2,.entry-content h3,.entry-content h4,.entry-content h5,.entry-content h6 {margin: 18px 0;line-height: 2.4;clear: none;}
+.entry-content h1 {font-size: 21px;line-height: 1.5;}
+.entry-content h2{font-size: 18px;line-height: 1.6;}
+.entry-content h3 {font-size: 16px;line-height: 1.846153846;}
+.entry-content h4 {font-size: 14px;line-height: 1.846153846;}
+.entry-content h5 {font-size: 13px;line-height: 1.846153846;}
+.entry-content h6{font-size: 12px;line-height: 1.846153846;}
+
+.entry-content p,.entry-summary p{margin: 0 0 12px;line-height: 1.8;}
+.entry-content p{text-indent: 2em; margin:10px 0;}
+
+.entry-content ol,.entry-content ul{margin: 0 0 12px;line-height: 2;}
+.entry-content ul ul,.entry-content ol ol,.entry-content ul ol,.entry-content ol ul {margin-bottom: 0;}
+.entry-content ul{list-style: disc outside;}
+.entry-content ol {list-style: decimal outside;}
+.entry-content li {margin: 0 0 0 36px;}
+.entry-content blockquote {margin-bottom: 24px;padding: 24px;font-style: italic;}
+.entry-content blockquote p:last-child { margin-bottom: 0;}
+.entry-content code{font-size: 12px;line-height: 2;}
+.entry-content pre{border: 1px solid #ededed;color: #666;font-size: 12px;line-height: 2.4;margin: 24px 0;overflow: auto;padding: 24px;}
+.entry-content pre code{display: block;}
+.entry-content abbr,
+.entry-content dfn,
+.entry-content acronym{border-bottom: 1px dotted #666;cursor: help;}
+.entry-content address{display: block;line-height: 2.4; margin: 0 0 12px;}
+.entry-content embed,
+.entry-content iframe,
+.entry-content object,
+.entry-content video { margin-bottom: 24px;}
+.entry-content dl {margin: 0 24px;}
+.entry-content dt {font-weight: bold;line-height: 2.4;}
+.entry-content dd{line-height: 2.4;margin-bottom: 24px;}
+.entry-content table{color: #757575;font-size: 12px;line-height: 2;border: none;}
+.entry-content table caption {font-size: 16px;margin: 24px 0;}
+.entry-content td {  border: 1px solid #999;  padding: 2px;}
+
+.entry-content img{max-width: 100%;}
+
+/*文章上下篇*/
+.nav-single{margin: 10px 0; line-height: 30px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.nav-previous, .nav-next {display: block;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+/*文章缩略图*/
+.entry-thumbnail{text-align: center;}
+.single .entry-thumbnail figcaption{display: none;}
+.entry-thumbnail-wrap{display: inline-block;position: relative;}
+.entry-thumbnail .previous-image,.entry-thumbnail .next-image{z-index:1000;height: 50px;width: 26px;position: absolute;top: 50%;margin-top: -13px; background: url("images/direction.png") no-repeat;_background-image: url("images/direction.gif");}
+.entry-thumbnail a{display: block;width: 100%;height: 100%;overflow: hidden;font-size: 0}
+.entry-thumbnail .off{display: none;}
+.entry-thumbnail .previous-image {right: 20px;background-position: 0 -1px;}
+.entry-thumbnail .previous-image:hover {right: 20px;background-position: -28px -1px;}
+.entry-thumbnail .next-image {left: 20px;background-position: -54px -1px;}
+.entry-thumbnail .next-image:hover {left: 20px;background-position: -83px -1px;}
+
+
+/**
+ * 5.4 Post/Paging Navigation
+ * 文章/页面 导航
+ * ----------------------------------------------------------------------------
+ */
+.assistive-text{display: none;}/*提示性文字*/
+.pagination{float:right;margin:6px 0 5px 30%;font-size:12px;text-align:right;margin-top: 5px;margin-right: 5px;}
+.pagination span, .pagination a, .page-select {text-align:center;height:22px;line-height:24px;margin:0px 2px 0px 2px;display:inline-block;border:1px #AACCEE solid;padding: 0 6px;}
+.pagination .current, .pagination a:hover{background:#ddd;text-decoration: none;}
