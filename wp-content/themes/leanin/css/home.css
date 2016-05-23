@@ -1,0 +1,89 @@
+/*首页*/
+/**
+ * 5.6.？ - Index Slide
+ * 首页幻灯片
+ * ----------------------------------------------------------------------------
+ */
+/**
+ * 5.5.3 - Community Callout
+ * 首页 加入我们
+ * ----------------------------------------------------------------------------
+ */
+.community-callout {
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 17px;
+  color: #818181;
+  text-align: center;
+}
+.community-callout .icon-leanin-dark {
+  display: block;
+  margin-bottom: 10px;
+  /*margin-right: 40px;*/
+}
+.community-callout strong {
+  color: #000000;
+}
+.community-callout .like {
+  border-left: 1px solid #e5e5e5;
+}
+/* 首页 模块底部 */
+.story-teaser {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.story-teaser header {
+  margin-bottom: 10px;
+}
+.story-teaser header h2 {
+  float: left;
+  font-size: 17px;
+  color: #221e1f;
+  text-transform: uppercase;
+}
+.story-teaser header .more {
+  float: right;
+  font-size: 14px;
+}
+.story-teaser .item-date {
+  display: block;
+  margin-bottom: 5px;
+  color: #ee2e24;
+}
+.story-teaser .member .name a,
+.story-teaser .member .title a {
+  color: #000;
+}
+.story-teaser .item-picture {
+  margin-bottom: 10px;
+}
+.story-teaser .item-title a {
+  font-size: 23px;
+  color: #000;
+}
+.story-teaser .item-title + p {
+  margin: 5px 0;
+  color: #818181;
+  font-size: 17px;
+}
+.story-teaser > ul > li {
+  margin-bottom: 12px;
+}
+.index-videos .item-picture a {
+  position: relative;
+}
+.index-videos .item-picture a:before {
+  content: "\f104";
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+  color: #fff;
+  padding: 4px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.index-videos .item-picture img {
+  display: block;
+}

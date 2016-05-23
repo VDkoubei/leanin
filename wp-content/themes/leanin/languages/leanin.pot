@@ -1,0 +1,220 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: leanin\n"
+"POT-Creation-Date: 2016-05-22 23:47+0800\n"
+"PO-Revision-Date: 2016-05-22 23:47+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: framework/helper_functions/base-funs.php:9
+msgid "Excerpt"
+msgstr ""
+
+#: framework/helper_functions/base-funs.php:459
+msgid " Pages: "
+msgstr ""
+
+#: framework/plus/theme_options.php:319
+msgid "Save Changes"
+msgstr ""
+
+#: framework/theme_widgets/category-cats.php:101
+#: framework/theme_widgets/category-cats.php:144
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: framework/theme_widgets/comments-new.php:33
+#: framework/theme_widgets/comments-wallreaders.php:70
+#: framework/theme_widgets/comments-wallreaders.php:101
+#, php-format
+msgid "Leave %s footprints"
+msgstr ""
+
+#: framework/theme_widgets/comments-new.php:91
+#: framework/theme_widgets/comments-new.php:102
+msgid "Link to "
+msgstr ""
+
+#: framework/theme_widgets/special_login.php:36
+msgid "Username:"
+msgstr ""
+
+#: framework/theme_widgets/special_login.php:39
+msgid "Password:"
+msgstr ""
+
+#: framework/theme_widgets/special_login.php:42
+msgid "Remember Me"
+msgstr ""
+
+#: framework/theme_widgets/special_login.php:42
+msgid "Log in"
+msgstr ""
+
+#: framework/theme_widgets/special_login.php:45
+msgid "Password Lost and Found"
+msgstr ""
+
+#: framework/theme_widgets/special_login.php:46
+msgid "Register"
+msgstr ""
+
+#: framework/theme_widgets/special_time.php:33
+msgctxt "timezone date format"
+msgid "Y年m月d日 G时i分s秒"
+msgstr ""
+
+#: framework/theme_widgets/special_time.php:33
+#, php-format
+msgid "Local time is %1$s"
+msgstr ""
+
+#: framework/theme_widgets/users-cats-tags.php:55
+#: framework/theme_widgets/users-cats-tags.php:101
+msgid "Pages"
+msgstr ""
+
+#: framework/theme_widgets/users-cats-tags.php:66
+#: framework/theme_widgets/users-cats-tags.php:112
+msgid "Categories"
+msgstr ""
+
+#: framework/theme_widgets/users-cats-tags.php:76
+#: framework/theme_widgets/users-cats-tags.php:122
+msgid "Tags"
+msgstr ""
+
+#: functions.php:109
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:117
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:182
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:213
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:215
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: functions.php:223
+msgid "Article Slideshow Sidebar"
+msgstr ""
+
+#: functions.php:225
+msgid "Appears when displaying article slideshow"
+msgstr ""
+
+#: functions.php:233
+msgid "Category Sidebar"
+msgstr ""
+
+#: functions.php:235 functions.php:245
+msgid "Appears in category"
+msgstr ""
+
+#: functions.php:243
+msgid "Tag Sidebar"
+msgstr ""
+
+#: functions.php:253
+msgid "Single Sidebar"
+msgstr ""
+
+#: functions.php:255
+msgid "Appears in single"
+msgstr ""
+
+#: functions.php:263
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:265
+msgid "Appears in page"
+msgstr ""
+
+#: functions.php:280
+#, php-format
+msgid "Page: %1$s"
+msgstr ""
+
+#: functions.php:281 functions.php:300
+#, php-format
+msgid "Set one sidebar for %1$s"
+msgstr ""
+
+#: functions.php:299
+#, php-format
+msgid "Category: %1$s"
+msgstr ""
+
+#: header.php:60
+msgid "Menu and widgets"
+msgstr ""
+
+#: index.php:8
+msgid ""
+"<span class=\"icon-leanin-dark\"><strong>Join a Lean In Circle.</strong> Get "
+"the support and skills you need to go for it!</span>"
+msgstr ""
+
+#: index.php:10
+msgid "Join a Circle"
+msgstr ""
+
+#: index.php:12
+msgid "ABCDE"
+msgstr ""
+
+#: index.php:29
+msgid "More"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "leanin"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.xiaoxili.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The 2016 theme for WordPress is a fully responsive theme that looks great on "
+"any device. Features include a front page template with its own widgets, an "
+"optional display font, styling for post formats on both index and single "
+"views, and an optional no-sidebar page template. Make it yours with a custom "
+"menu, header image, and background."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "明日工作室"
+msgstr ""

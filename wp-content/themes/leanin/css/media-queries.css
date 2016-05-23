@@ -1,0 +1,119 @@
+/**
+ * 8.0 Media Queries
+ * 媒体查询
+ * ----------------------------------------------------------------------------
+ */
+@media screen and (min-width: 960px) {
+  .site-header {
+    padding: 0;
+  }
+  .site-branding {
+    float: left;
+  }
+  .main-navigation {
+    float: right;
+    margin: 0;
+  }
+  .main-navigation .nav-menu {
+    display: block !important;
+    background: transparent;
+  }
+  .main-navigation .nav-menu > li {
+    float: left;
+    padding: 0;
+    font-size: 15px;
+    margin-right: 14px;
+  }
+  .main-navigation .nav-menu li > a {
+    position: relative;
+    color: #444;
+    line-height: 62px;
+  }
+  .main-navigation .nav-menu > li > a:after {
+    position: absolute;
+    bottom: -4px;
+    content: '';
+    height: 2px;
+    left: 50%;
+    right: 50%;
+    background-color: #ee2e24;
+    transition: all .35s ease;
+  }
+  .main-navigation .nav-menu > li:hover > a:after {
+    left: 0;
+    right: 0;
+  }
+  .main-navigation .sub-menu {
+    display: block;
+    position: absolute;
+    top: 61px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    width: 250px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .35s ease;
+    z-index: 101;
+    box-shadow: 4px 4px 9px -2px rgba(129, 129, 129, 0.65);
+  }
+  .main-navigation .nav-menu > li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+  }
+  .main-navigation .sub-menu:after,
+  .main-navigation .sub-menu:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .main-navigation .sub-menu:before {
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: #e5e5e5;
+    border-width: 10px;
+    margin-left: -10px;
+  }
+  .main-navigation .sub-menu:after {
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: #fff;
+    border-width: 9px;
+    margin-left: -9px;
+  }
+  .main-navigation .sub-menu li {
+    padding-left: 10px;
+  }
+  .main-navigation .sub-menu li a {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #818181;
+    transition: color .2s ease;
+    display: block;
+  }
+  .community-callout .icon-leanin-dark {
+    margin: 0 40px 0 0;
+    display: inline-block;
+  }
+}
+/*大平板*/
+@media screen and (min-width: 1025px) {
+  .section-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  .site-header .section-wrapper {
+    position: relative;
+  }
+  .main-navigation {
+    background-color: none;
+  }
+}

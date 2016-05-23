@@ -3,9 +3,10 @@
  * 重复性部分，用在html元素或者常用的css类
  * ----------------------------------------------------------------------------
  */
-body{background: #eaeaea;}
-a{color:#333;}
-a:hover{text-decoration: underline;}
+body{
+}
+a{color:#ee2e24;}
+/*a:hover{text-decoration: underline;}*/
 .fl{float: left;}
 .fr{float: right;}
 
@@ -30,5 +31,54 @@ img.alignnone {  margin: 5px 0;}
 
 .lists .lists-small li a,.lists .lists-medium li a, .community_news li a{display:block;white-space: nowrap; text-overflow: ellipsis;overflow: hidden;}
 .lists .lists-small li a,.lists .lists-medium li a{ *display: inline-block;  zoom:1;}
+
+
+.menu-toggle:before,
+.main-navigation .nav-menu > li:after,
+.index-videos .item-picture a:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: "Genericons";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    speak: none;
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+    vertical-align: top;
+}
+
+
+/* 按钮 */
+.btn, .btn-primary {
+    border-radius: 0;
+}
+
+.btn-primary {
+    cursor: pointer;
+    display: inline-block;
+    background: 0 0;
+    outline: 0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4px 12px;
+    text-align: center;
+    background-color: #ee2e24;
+    color: #fff;
+    border: 1px solid #ee2e24;
+}
+
+
+.btn-full, .btn-large {
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+
 
 

@@ -1,0 +1,111 @@
+/**
+ * 2.0 - Repeatable Patterns
+ * 重复性部分，用在html元素或者常用的css类
+ * ----------------------------------------------------------------------------
+ */
+a {
+  color: #ee2e24;
+}
+/*a:hover{text-decoration: underline;}*/
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Images */
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.alignleft {
+  margin: 5px 20px 5px 0;
+}
+.wp-caption.alignleft {
+  margin: 5px 10px 5px 0;
+}
+img.alignright {
+  margin: 5px 0 5px 20px;
+}
+.wp-caption.alignright {
+  margin: 5px 0 5px 10px;
+}
+img.aligncenter {
+  margin: 5px auto;
+}
+img.alignnone {
+  margin: 5px 0;
+}
+.lists,
+.index-honor .honor-con,
+.pic_cats li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.lists .lists-small li a,
+.lists .lists-medium li a,
+.community_news li a {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.lists .lists-small li a,
+.lists .lists-medium li a {
+  *display: inline-block;
+  zoom: 1;
+}
+.menu-toggle:before,
+.main-navigation .nav-menu > li:after,
+.index-videos .item-picture a:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: "Genericons";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  speak: none;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  vertical-align: top;
+}
+/* 按钮 */
+.btn,
+.btn-primary {
+  border-radius: 0;
+}
+.btn-primary {
+  cursor: pointer;
+  display: inline-block;
+  background: 0 0;
+  outline: 0;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 4px 12px;
+  text-align: center;
+  background-color: #ee2e24;
+  color: #fff;
+  border: 1px solid #ee2e24;
+}
+.btn-full,
+.btn-large {
+  padding: 10px 20px;
+  font-size: 17px;
+}

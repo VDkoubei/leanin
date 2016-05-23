@@ -1,0 +1,32 @@
+/**
+ * 3.0 Basic Structure
+ * 网站基本结构，用于构建网站主体模块
+ * ----------------------------------------------------------------------------
+ */
+.site {
+  background: #fff;
+}
+.wrapper {
+  margin: 18px;
+}
+#secondary {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  /*基本结构*/
+  .site-content {
+    width: 76.5%;
+    float: left;
+  }
+  .home .site-content,
+  .full-width .site-content {
+    width: auto;
+    margin: auto;
+    float: none;
+  }
+  #secondary {
+    display: block;
+    width: 22%;
+    float: right;
+  }
+}
